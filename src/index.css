@@ -7,15 +7,10 @@ body {
 
 input {
   padding: .25rem;
-  border-radius: 5px;
   border-style: none;
   font-size: 1rem;
   width: 70%;
   font-family: 'Courier New', Courier, monospace;
-}
-
-input:focus {
-  outline: none;
 }
 
 button {
@@ -26,7 +21,6 @@ button {
   padding: .5rem 1rem;
   color: white;
   background-color: #a463f2;
-  border-radius: 5px;
   display: inline-block;
   border: none;
   cursor: pointer;
@@ -36,6 +30,11 @@ button {
 
 button:hover {
   width: 32%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 

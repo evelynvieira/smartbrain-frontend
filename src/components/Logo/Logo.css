@@ -11,6 +11,6 @@
   justify-content: center;
 }
 
-img {
+.Tilt-inner > img {
   max-width: 100px;
 }

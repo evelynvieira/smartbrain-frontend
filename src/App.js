@@ -1,19 +1,13 @@
 import React from 'react';
 import Navigation from './components/Navigation/Navigation';
-import Logo from './components/Logo/Logo';
-import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
-import Rank from './components/Rank/Rank';
 
-function App() {
-  return (
-    <div>
-      <Navigation />
-      <Logo />
-      <Rank />
-      <ImageLinkForm />
-      {/* <FaceRecognition /> */}
-    </div>
-  );
-}
+import Router from './components/Router/Router';
+
+const App = () => (
+  <>
+    <Navigation />
+    <Router />
+  </>
+);
 
 export default App;
