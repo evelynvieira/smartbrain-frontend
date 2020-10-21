@@ -9,7 +9,7 @@ const ImageLinkForm = ({ onChange, onClick }) => (
     <div className="center">
       <div className="form center">
         <input type="text" onChange={onChange} />
-        <button onClick={onClick}>Detect</button>
+        <button className="secondary_button" onClick={onClick}>Detect</button>
       </div>
     </div>
   </>
